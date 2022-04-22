@@ -1,0 +1,8 @@
+{
+  "name": "@nicktomlin/rush-mono-config",
+  "private": true,
+  "scripts": {
+    "build": "",
+    "test": ""
+  }
+}

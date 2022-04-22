@@ -1,0 +1,41 @@
+{
+  "name": "@nicktomlin/rush-mono-http",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "test": "ava",
+    "build": "tsup src/index.ts --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickTomlin/monorepo-playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickTomlin/monorepo-playground/issues"
+  },
+  "homepage": "https://github.com/NickTomlin/monorepo-playground#readme",
+  "description": "",
+  "dependencies": {
+    "undici": "^5.0.0"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "nodeArguments": [
+      "--loader=ts-node/register"
+    ]
+  },
+  "devDependencies": {
+    "@nicktomlin/rush-mono-config": "workspace:*",
+    "typescript": "~4.6.3",
+    "ava": "^4.1.0",
+    "ts-node": "^10.7.0",
+    "tsup": "^5.12.4"
+  }
+}
