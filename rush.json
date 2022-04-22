@@ -290,7 +290,7 @@
      * your PR branch, and in this situation "rush change" will also automatically invoke "git fetch"
      * to retrieve the latest activity for the remote main branch.
      */
-    // "url": "https://github.com/microsoft/rush-example",
+     "url": "https://github.com/NickTomlin/rush-playground",
 
     /**
      * The default branch name. This tells "rush change" which remote branch to compare against.
@@ -420,22 +420,5 @@
       "projectFolder": "packages/config",
       "shouldPublish": false,
     }
-    //   "reviewCategory": "production",
-    //   "tags": ["libraries", "web"]
-    // },
-    //
-    // {
-    //   "packageName": "my-controls",
-    //   "projectFolder": "libraries/my-controls",
-    //   "reviewCategory": "production",
-    //   "tags": ["libraries", "web"]
-    // },
-    //
-    // {
-    //   "packageName": "my-toolchain",
-    //   "projectFolder": "tools/my-toolchain",
-    //   "reviewCategory": "tools",
-    //   "tags": ["tools"]
-    // }
   ]
 }
