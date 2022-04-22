@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@nicktomlin/rush-mono-http",
+      "comment": "Replace our usage of undici fetch with undici request",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@nicktomlin/rush-mono-http"
+}
