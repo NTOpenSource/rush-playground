@@ -22,7 +22,6 @@
   "description": "",
   "dependencies": {
     "undici": "^5.0.0",
-    "@tsconfig/node16": "~1.0.2",
     "@types/node": "~17.0.25"
   },
   "ava": {
