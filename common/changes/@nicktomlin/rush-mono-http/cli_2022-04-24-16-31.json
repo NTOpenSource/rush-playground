@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@nicktomlin/rush-mono-http",
+      "comment": "Update deps / config",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@nicktomlin/rush-mono-http"
+}
