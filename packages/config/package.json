@@ -1,8 +1,12 @@
 {
   "name": "@nicktomlin/rush-mono-config",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "",
     "test": ""
+  },
+  "dependencies": {
+    "@types/node": "~17.0.25"
   }
 }
