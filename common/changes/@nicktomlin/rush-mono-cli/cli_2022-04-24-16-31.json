@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@nicktomlin/rush-mono-cli",
+      "comment": "Update deps",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@nicktomlin/rush-mono-cli"
+}

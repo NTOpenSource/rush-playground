@@ -1,0 +1,43 @@
+{
+  "name": "@nicktomlin/rush-mono-cli",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": ["dist"],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "ava",
+    "build": "tsup src/bin/index.ts src/index.ts --dts"
+  },
+  "bin": "./dist/bin/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^4.1.0",
+    "tsup": "^5.12.4",
+    "ts-node": "^10.7.0",
+    "@nicktomlin/rush-mono-config": "workspace:*"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "nodeArguments": [
+      "--loader=ts-node/register"
+    ]
+  },
+  "dependencies": {
+    "@nicktomlin/rush-mono-http": "workspace:*",
+    "@types/node": "~17.0.25",
+    "typescript": "~4.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickTomlin/monorepo-playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickTomlin/monorepo-playground/issues"
+  },
+  "homepage": "https://github.com/NickTomlin/monorepo-playground#readme",
+  "description": ""
+}
