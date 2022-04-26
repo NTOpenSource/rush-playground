@@ -1,0 +1,25 @@
+{
+  "name": "@nicktomlin/rush-mono-cli",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@nicktomlin/rush-mono-cli_v1.0.1",
+      "date": "Tue, 26 Apr 2022 14:09:21 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Add cli package"
+          },
+          {
+            "comment": "Update deps"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@nicktomlin/rush-mono-http\" to `1.0.1`"
+          }
+        ]
+      }
+    }
+  ]
+}

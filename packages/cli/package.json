@@ -1,6 +1,6 @@
 {
   "name": "@nicktomlin/rush-mono-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "files": ["dist"],
   "types": "dist/index.d.ts",
