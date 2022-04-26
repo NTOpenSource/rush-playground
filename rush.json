@@ -262,7 +262,7 @@
      * you might configure your system's trigger to look for a special string such as "[skip-ci]"
      * in the commit message, and then customize Rush's message to contain that string.
      */
-    // "versionBumpCommitMessage": "Bump versions [skip ci]",
+     "versionBumpCommitMessage": "Bump versions [skip ci]",
 
     /**
      * The commit message to use when committing changes during 'rush version'.
@@ -271,7 +271,7 @@
      * you might configure your system's trigger to look for a special string such as "[skip-ci]"
      * in the commit message, and then customize Rush's message to contain that string.
      */
-    // "changeLogUpdateCommitMessage": "Update changelogs [skip ci]"
+     "changeLogUpdateCommitMessage": "Update changelogs [skip ci]"
   },
 
   "repository": {
@@ -291,13 +291,6 @@
      * to retrieve the latest activity for the remote main branch.
      */
      "url": "https://github.com/NickTomlin/rush-playground",
-
-    /**
-     * The default branch name. This tells "rush change" which remote branch to compare against.
-     * The default value is "main"
-     */
-    // "defaultBranch": "main",
-
     /**
      * The default remote. This tells "rush change" which remote to compare against if the remote URL is
      * not set or if a remote matching the provided remote URL is not found.
