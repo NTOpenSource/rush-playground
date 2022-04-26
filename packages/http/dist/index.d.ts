@@ -1,5 +1,5 @@
 declare class Client {
-    run(): Promise<unknown>;
+    run(): Promise<any>;
 }
 
 export { Client };

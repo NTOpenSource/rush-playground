@@ -25,8 +25,8 @@ module.exports = __toCommonJS(src_exports);
 var import_undici = require("undici");
 var Client = class {
   async run() {
-    const res = await (0, import_undici.fetch)("https://httpbin.org/get");
-    return res.json();
+    const { body } = await (0, import_undici.request)("https://httpbin.org/get");
+    return body.json();
   }
 };
 // Annotate the CommonJS export names for ESM import in node:
