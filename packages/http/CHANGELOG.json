@@ -1,0 +1,20 @@
+{
+  "name": "@nicktomlin/rush-mono-http",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@nicktomlin/rush-mono-http_v1.0.1",
+      "date": "Tue, 26 Apr 2022 14:09:21 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update deps / config"
+          },
+          {
+            "comment": "Replace our usage of undici fetch with undici request"
+          }
+        ]
+      }
+    }
+  ]
+}
